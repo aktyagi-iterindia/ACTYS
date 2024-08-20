@@ -1,0 +1,28 @@
+ACTYS
+/home/solps/mcnp_tools/ACTYS/Data
+
+ELE 1.0 KG 
+1
+Cr	100
+
+CROP 0
+GRP 315
+PRIMARY 1
+DEBUG 0
+PATHWAY 2
+PATH 1
+Cr51
+PPATH 2
+Cr50
+Cr52
+FLUX_FILE /home/solps/mcnp_tools/ACTYS/test_grp/src_org/tripoli_flux
+
+INTR 1
+TIME 	100  S	FLUX   1.3E+16 0
+TIME 	2.00E+00	Y	FLUX    2.68E+16
+PULSE 2
+OFF 	4.54E-02	D	FLUX	0.00E+00
+ON  	4.63E-03	D	FLUX	7.00E+18
+STOP
+TIME 	1.00E+00	D	FLUX    0.00E+00
+TIME    1.00E+11    S   FLUX    0.00E+00
